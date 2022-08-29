@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>Formulario medico</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container col-md-6">
+        <div class="row">
+            <div class="col">
+                
+                <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+                    <Seleccionar>
+                        <h2>DATOS DEL PACIENTE.</h2>
+                        <div class="col-md-12">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" class="form-control" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" class="form-control" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="direccion" class="form-label">Direccion</label>
+                            <input type="text" name="apellido" id="apellido" class="form-control" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="telefono" class="form-label">Telefono</label>
+                            <input type="text" name="apellido" id="apellido" class="form-control" required>
+                        </div>
+
+                        <!--Seleccionar Municipio-->
+                        <div class="col-md-12">
+                            <label for="pais">Municipio</label>
+                            <select name="pais" id="pais" class="form-select" required>
+                                <option selected disabled value="">Seleccione</option>
+                                <option>Atescatempa</option>
+                                <option>Asunción Mita</option>
+                                <option>Yupiltepeque</option>
+                                <option>Zapotitlán</option>
+                                <option>Jerez</option>
+                            </select>
+                        </div>
+
+                        <!--Seleccionar Médicos-->
+                        <div class="col-md-12">
+                            <label for="pais">Medico</label>
+                            <select name="pais" id="pais" class="form-select" required>
+                                <option selected disabled value="">Seleccione</option>
+                                <option>Mooris Florian</option>
+                                <option>Mayra Samayoa</option>
+                                <option>Mariám Florian</option>
+                                <option>Masiel Florian</option>
+                                <option>Marvin Salazar</option>
+                            </select>
+                        </div>
+
+                        <!--Seleccionar Clínica-->
+                        <div class="col-md-12">
+                            <label for="Medico" class="form-label">Clinica</label>
+                            <select name="pais" id="pais" class="form-select" required>
+                                <option selected disabled value="">Seleccione</option>
+                                <option>Multimédica</option>
+                                <option>Portal Médico</option>
+                                <option>Centro Médico</option>
+                            </select>
+                        </div>
+
+                        <!--Configuración del botón-->
+                        <div class="boton">
+                            <button type="subimit" class="btn btn-warning fw-bold" style="margin-top: 10px;">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
